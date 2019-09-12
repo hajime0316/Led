@@ -4,7 +4,7 @@
 #include "tim.h"
 #include "gpio.h"
 
-#include "stm32_led.hpp"
+#include "stm32_led/stm32_led.hpp"
 
 static Stm32Led led_g(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_SET);
 static Stm32Led led_b(LED_B_GPIO_Port, LED_B_Pin, GPIO_PIN_SET);
